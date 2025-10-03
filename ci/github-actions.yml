@@ -1,0 +1,15 @@
+name: CI
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '7.0.x'
+      - name: Restore & Build
+        run: dotnet build ./CadastroService/Cadastro.API.csproj -c Release
+      - name: Run tests
+        run: echo "Add tests steps here"
