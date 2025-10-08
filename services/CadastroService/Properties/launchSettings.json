@@ -3,10 +3,10 @@
     "Cadastro.API": {
       "commandName": "Project",
       "launchBrowser": true,
+      "applicationUrl": "http://localhost:43967",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      },
-      "applicationUrl": "https://localhost:57362;http://localhost:57363"
+      }
     }
   }
 }

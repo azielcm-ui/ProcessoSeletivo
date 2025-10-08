@@ -3,10 +3,10 @@
     "Notificacoes.API": {
       "commandName": "Project",
       "launchBrowser": true,
+      "applicationUrl": "http://localhost:40430",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      },
-      "applicationUrl": "https://localhost:57166;http://localhost:57167"
+      }
     }
   }
 }

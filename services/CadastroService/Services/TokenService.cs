@@ -1,13 +1,14 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using Cadastro.Application;
 using CadastroService.Domain;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 
 namespace CadastroService.Services;
 
-public class TokenService
+public class TokenService : ITokenService
 {
     private readonly IConfiguration _config;
     public TokenService(IConfiguration config) => _config = config;
@@ -37,5 +38,15 @@ public class TokenService
     public string GenerateRefreshToken()
     {
         return Convert.ToBase64String(Guid.NewGuid().ToByteArray());
+    }
+
+    public Task<(string accessToken, string refreshToken)> GenerateTokensAsync(ApplicationUser user)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<(string accessToken, string refreshToken)> RefreshAsync(string refreshToken)
+    {
+        throw new NotImplementedException();
     }
 }

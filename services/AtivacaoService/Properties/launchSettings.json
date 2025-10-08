@@ -3,10 +3,10 @@
     "Ativacao.API": {
       "commandName": "Project",
       "launchBrowser": true,
+      "applicationUrl": "http://localhost:59607",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      },
-      "applicationUrl": "https://localhost:54701;http://localhost:54702"
+      }
     }
   }
 }

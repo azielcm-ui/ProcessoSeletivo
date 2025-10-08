@@ -2073,32 +2073,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aziel\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/azielmota/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\ScafFold\\scr\\services\\NotificacoesService\\Notificacoes.API.csproj",
-      "projectName": "Notificacoes.API",
-      "projectPath": "C:\\Projetos\\ScafFold\\scr\\services\\NotificacoesService\\Notificacoes.API.csproj",
-      "packagesPath": "C:\\Users\\aziel\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\ScafFold\\scr\\services\\NotificacoesService\\obj\\",
+      "projectUniqueName": "/Users/azielmota/Projects/ProcessoSeletivo/services/NotificacoesService/Notificacoes.Api.csproj",
+      "projectName": "Notificacoes.Api",
+      "projectPath": "/Users/azielmota/Projects/ProcessoSeletivo/services/NotificacoesService/Notificacoes.Api.csproj",
+      "packagesPath": "/Users/azielmota/.nuget/packages/",
+      "outputPath": "/Users/azielmota/Projects/ProcessoSeletivo/services/NotificacoesService/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\aziel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/azielmota/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
+        "/usr/local/share/dotnet/library-packs": {},
+        "/usr/local/share/dotnet/sdk/7.0.317/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2111,13 +2105,7 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
       "net7.0": {
@@ -2151,7 +2139,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
       }
     }
   }

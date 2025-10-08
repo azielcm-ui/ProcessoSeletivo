@@ -4,6 +4,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Ativacao.API' " />
   <ItemGroup>
     <PackageReference Include="RabbitMQ.Client" Version="6.4.0" />
     <PackageReference Include="Microsoft.Extensions.Http" Version="7.0.0" />

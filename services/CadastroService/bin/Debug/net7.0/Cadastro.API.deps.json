@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "Cadastro.API/1.0.0": {
+      "Cadastro.Api/1.0.0": {
         "dependencies": {
           "Hangfire.AspNetCore": "1.8.21",
           "Hangfire.Core": "1.8.21",
@@ -20,7 +20,7 @@
           "System.IdentityModel.Tokens.Jwt": "7.7.0"
         },
         "runtime": {
-          "Cadastro.API.dll": {}
+          "Cadastro.Api.dll": {}
         }
       },
       "Dapper/2.0.123": {
@@ -38,7 +38,7 @@
         "runtime": {
           "lib/netcoreapp3.0/Hangfire.AspNetCore.dll": {
             "assemblyVersion": "1.8.21.0",
-            "fileVersion": "1.8.21.0"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -49,7 +49,7 @@
         "runtime": {
           "lib/netstandard2.0/Hangfire.Core.dll": {
             "assemblyVersion": "1.8.21.0",
-            "fileVersion": "1.8.21.0"
+            "fileVersion": "0.0.0.0"
           }
         },
         "resources": {
@@ -107,7 +107,7 @@
         "runtime": {
           "lib/netstandard2.1/Hangfire.NetCore.dll": {
             "assemblyVersion": "1.8.21.0",
-            "fileVersion": "1.8.21.0"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -435,7 +435,7 @@
     }
   },
   "libraries": {
-    "Cadastro.API/1.0.0": {
+    "Cadastro.Api/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

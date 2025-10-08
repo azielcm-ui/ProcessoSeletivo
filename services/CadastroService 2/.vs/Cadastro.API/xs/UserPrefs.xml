@@ -1,0 +1,48 @@
+﻿<Properties StartupConfiguration="{83473FC6-E38B-426F-9FF7-D29B88675ECF}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/AuthController.cs">
+    <Files>
+      <File FileName="Properties/launchSettings.json" Line="6" Column="48" />
+      <File FileName="Program.cs" Line="31" Column="33" />
+      <File FileName="appsettings.json" Line="16" Column="24" />
+      <File FileName="Cadastro.API.csproj" Line="16" Column="61" />
+      <File FileName="Controllers/AuthController.cs" Line="49" Column="46" />
+      <File FileName="Services/ITokenService.cs" Line="8" Column="57" />
+      <File FileName="Services/TokenService.cs" Line="10" Column="26" />
+      <File FileName="Controllers/AtivacaoController.cs" Line="6" Column="20" />
+      <File FileName="Domain/ApplicationUser.cs" Line="3" Column="19" />
+      <File FileName="Domain/Funcionario.cs" Line="1" Column="1" />
+      <File FileName="Controllers/FuncionariosController.cs" Line="1" Column="1" />
+      <File FileName="Infrastructure/CadastroDbContext.cs" Line="1" Column="1" />
+      <File FileName="Infrastructure/FuncionarioRepository.cs" Line="1" Column="1" />
+      <File FileName="Infrastructure/RabbitMqPersistentConnection.cs" Line="1" Column="1" />
+      <File FileName="Infrastructure/SeedData.cs" Line="1" Column="1" />
+      <File FileName="Infrastructure/SmtpEmailSender.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Cadastro.API" expanded="True">
+            <Node name="Cadastro.API">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers">
+                <Node name="AuthController.cs" selected="True" />
+              </Node>
+              <Node name="Infrastructure" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/azielmota/Projects/ProcessoSeletivo/services/CadastroService/Controllers/AuthController.cs" relfile="Controllers/AuthController.cs" line="35" column="1" />
+      <Breakpoint file="/Users/azielmota/Projects/ProcessoSeletivo/services/CadastroService/Controllers/AuthController.cs" relfile="Controllers/AuthController.cs" line="25" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Cadastro.API PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

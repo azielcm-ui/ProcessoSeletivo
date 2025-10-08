@@ -1,1 +1,11 @@
-{"Version":1,"Hash":"yfkDH+7Hf3UVtlRoYfuGAT3KXWtlznKIveSHSUHTCCI=","Source":"Cadastro.API","BasePath":"_content/Cadastro.API","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
+{
+  "Version": 1,
+  "Hash": "PSZ9+GFGvjBaDFTryVvUMegBGELrH3k5gzACYqJBQNg=",
+  "Source": "Cadastro.Api",
+  "BasePath": "_content/Cadastro.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
